@@ -53,11 +53,11 @@ public class ATM {
 	// Method to transfer money
 	public void transfer(double amount, String recipient) {
 		if (amount > balance) {
-			System.out.println("Insufficient balance to transfer.");
+			System.out.println("Insufficient balance to Transmit.");
 		} else {
 			balance -= amount;
 			transactionHistory.add("Transferred: " + amount + " to " + recipient);
-			System.out.println("Successfully transferred: " + amount + " to " + recipient);
+			System.out.println("Successfully Conveyed: " + amount + " to " + recipient);
 		}
 	}
 
